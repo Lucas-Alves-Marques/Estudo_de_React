@@ -1,14 +1,14 @@
-# Meu estudo do React ⚛️
+# ⚛️ Meu estudo do React 
 
 Repositório de estudos e exemplos práticos com React, criado para aprender os fundamentos da biblioteca e experimentar a construção de interfaces com componentes reutilizáveis.
 
-## Sobre o projeto 📚
+## 📚 Sobre o projeto 
 
 Este projeto surgiu durante a mudança do **segundo para o terceiro semestre** do curso de **Desenvolvimento de Sistemas**. Quando foi informado que a turma aprenderia React.js no semestre seguinte, fiquei bastante interessado e comecei a pesquisar e estudar a tecnologia por conta própria, antes das aulas começarem.
 
 O repositório reúne exercícios de aprendizado sobre componentes, propriedades (*props*), eventos, estado, formulários, renderização de listas, CSS Modules e navegação entre páginas. Os exemplos têm finalidade educacional; alguns são independentes e não aparecem na interface principal até serem importados e utilizados.
 
-## Tecnologias utilizadas 🧰
+## 🧰 Tecnologias utilizadas 
 
 - **React 19** e **React DOM** para construir e renderizar a interface.
 - **JavaScript** com componentes funcionais e JSX.
@@ -19,7 +19,7 @@ O repositório reúne exercícios de aprendizado sobre componentes, propriedades
 - **PropTypes** para declarar as propriedades esperadas por um componente.
 - **Testing Library** para testes de interface.
 
-## Requisitos 📋
+## 📋 Requisitos 
 
 - Node.js e npm instalados.
 - Um navegador atualizado.
@@ -31,7 +31,7 @@ node --version
 npm --version
 ```
 
-## Instalação e execução ▶️
+## 🚀 Instalação e execução
 
 Abra um terminal na pasta raiz do repositório — a mesma pasta deste README e do `package.json` — e instale as dependências:
 
@@ -49,7 +49,7 @@ O Create React App abrirá o projeto no navegador, normalmente em [http://localh
 
 Para interromper o servidor, use `Ctrl+C` no terminal.
 
-## Rotas da aplicação 🧭
+## 🧭 Rotas da aplicação 
 
 A interface principal é configurada em `src/App.js`, usando `BrowserRouter`, `Routes` e `Route`. A barra de navegação e o rodapé são compartilhados pelas páginas:
 
@@ -61,9 +61,9 @@ A interface principal é configurada em `src/App.js`, usando `BrowserRouter`, `R
 
 Use os links da barra superior para navegar entre as rotas sem recarregar a aplicação. A rota de contato usa o caminho `/contatos` (plural).
 
-## Componentes da aplicação 🧩
+## 🧩 Componentes da aplicação 
 
-### Componentes usados nas páginas 🧱
+### Componentes usados nas páginas 
 
 - **`App`** (`src/App.js`): ponto central da interface; configura o roteador, exibe `NavBar`, seleciona uma das páginas conforme a rota e inclui `Footer`.
 - **`NavBar`** (`src/components/Layout/NavBar.js`): lista links para Home, Empresa e Contatos, usando `Link` do React Router.
@@ -72,7 +72,7 @@ Use os links da barra superior para navegar entre as rotas sem recarregar a apli
 - **`Contato`** (`src/components/Paginas/Contato.js`): página de exemplo para a rota de contatos.
 - **`Footer`** (`src/components/Layout/Footer.js`): rodapé com ícones do GitHub, LinkedIn e Gmail fornecidos por `react-icons`. Os ícones são elementos visuais; neste momento, não estão configurados como links.
 
-### Componentes de estudo 🧪
+### Componentes de estudo
 
 Os exemplos a seguir estão em `src/components/`. Eles demonstram conceitos isolados e **não são renderizados automaticamente** pela aplicação principal:
 
@@ -92,7 +92,7 @@ Os exemplos a seguir estão em `src/components/`. Eles demonstram conceitos isol
 
 Para testar algum exemplo na interface, importe o componente em `App.js` ou em outra página e inclua-o no JSX, fornecendo as props exigidas por ele.
 
-## Estilos e arquivos principais 🎨
+## 🎨 Estilos e arquivos principais 
 
 - **`src/index.js`**: cria a raiz React dentro do elemento `root` de `public/index.html`, envolve a aplicação em `React.StrictMode` e inicia a medição opcional com `reportWebVitals`.
 - **`src/index.css`**: estilos globais do documento, incluindo espaçamento do `body` e aparência dos parágrafos.
@@ -104,7 +104,7 @@ Para testar algum exemplo na interface, importe o componente em `App.js` ou em o
 - **`src/App.test.js`**: arquivo de teste inicial do Create React App.
 - **`src/reportWebVitals.js`**: integração opcional para coletar métricas de desempenho da aplicação.
 
-## Estrutura de pastas 🗂️
+## 🗂️ Estrutura de pastas 
 
 ```text
 Estudo_de_React/
@@ -135,7 +135,7 @@ Estudo_de_React/
 └── package-lock.json
 ```
 
-## Comandos disponíveis ⚙️
+## ⚙️ Comandos disponíveis 
 
 | Comando | Descrição |
 | --- | --- |
@@ -160,7 +160,7 @@ npm test
 
 O teste que já vem no projeto procura o texto inicial padrão do Create React App (“learn react”), enquanto a aplicação atual apresenta páginas de estudo próprias. Portanto, esse teste inicial pode precisar ser atualizado para corresponder à interface atual.
 
-## Observações de estudo 🔎
+## Observações de estudo
 
 - Os componentes didáticos são exercícios independentes; a existência de um arquivo em `src/components/` não significa que ele já esteja visível na aplicação.
 - O conteúdo das páginas Home, Empresa e Contatos é demonstrativo e pode ser substituído ou expandido.
